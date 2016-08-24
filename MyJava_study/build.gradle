@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/guava-14.0.1.jar')
+    compile files('libs/commons-collections4-4.0-alpha1.jar')
+    compile files('libs/javassist-3.14.0-ga-1.0.0.jar')
+    compile files('libs/mysql-connector-java-5.1.25-bin.jar')
+}
+tasks.withType(JavaCompile) { options.encoding = "UTF-8" }
