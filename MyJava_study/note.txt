@@ -1,0 +1,3 @@
+orm:object relation model  对象关系模型
+能自动实现对象和SQL 自动映射的框架
+
